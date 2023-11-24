@@ -14,4 +14,4 @@ function calculateInterest() {
     document.getElementById('result').textContent = 'Interest Amount: ' + interestAmount;
 }
 
-document.getElementById('convertButton').addEventListener('click', calculateInterest);
+document.getElementById('convertButton').addEventListener('click', ()=>calculateInterest());
